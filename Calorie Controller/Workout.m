@@ -1,18 +1,13 @@
 //
-//  FoodCategory.m
+//  Workout.m
 //  Calorie Controller
 //
 //  Created by Annam Siddique on 26/03/2014.
 //  Copyright (c) 2014 Annam Siddique. All rights reserved.
 //
 
-#import "Food.h"
+#import "Workout.h"
 
-@implementation Food
-
-@dynamic id;
-@dynamic name;
-@dynamic calories;
-@dynamic category;
+@implementation Workout
 
 @end

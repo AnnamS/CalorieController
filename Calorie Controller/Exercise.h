@@ -1,18 +1,13 @@
 //
-//  FoodCategory.m
+//  Exercise.h
 //  Calorie Controller
 //
 //  Created by Annam Siddique on 26/03/2014.
 //  Copyright (c) 2014 Annam Siddique. All rights reserved.
 //
 
-#import "Food.h"
+#import <Foundation/Foundation.h>
 
-@implementation Food
-
-@dynamic id;
-@dynamic name;
-@dynamic calories;
-@dynamic category;
+@interface Exercise : NSObject
 
 @end
