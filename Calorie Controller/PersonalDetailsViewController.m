@@ -40,6 +40,7 @@
     managedObjectModel = [appDelegate managedObjectModel];
     
     [self addFoodToCoreData];
+    [self addExerciseToCoreData];
     // Do any additional setup after loading the view.
 }
 
@@ -167,6 +168,7 @@
 
 }
 
+
 -(int)countFoodRecords
 {
     // Define our table/entity to use
@@ -195,6 +197,106 @@
 {
     // Define our table/entity to use
     NSEntityDescription *entity = [NSEntityDescription entityForName:@"Food" inManagedObjectContext:managedObjectContext];
+    // Setup the fetch request
+    
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    [request setEntity:entity];
+    
+    // Define how we will sort the records
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [request setSortDescriptors:sortDescriptors];
+    
+    // Fetch the records and handle any error
+    NSError *error;
+    NSMutableArray *mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+    if (!mutableFetchResults) {
+        // Handle the error.
+        // This is a serious error and should advise the user to restart the application
+    }
+    
+    for(int i = 0; i < [mutableFetchResults count]; i++)
+    {
+        Food *f = [mutableFetchResults objectAtIndex:i];
+        NSLog(@"%@",f.name);
+    }
+}
+
+
+-(void)addExerciseToCoreData
+{
+    
+    if([self countExerciseRecords] == 0)
+    {
+      //  Exercise *exercise = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+        
+    //        [exercise setId:@"1"];
+//        [exercise setName:@"Walking"];
+//        [exercise setCalories:@"50"];
+//        [exercise setUnits:@"Distance"];
+       
+        
+        
+        //Exercise *exercise2 = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+        
+        //        [exercise2 setId:@"2"];
+        //        [exercise2 setName:@"Running"];
+        //        [exercise2 setCalories:@"100"];
+        //        [exercise2 setUnits:@"Distance"];
+        
+        
+        
+        //        [exercise2 setId:@"3"];
+        //        [exercise2 setName:@"Running"];
+        //        [exercise2 setCalories:@"150"];
+        //        [exercise2 setUnits:@"Distance"];
+        
+        
+        
+        
+        NSError *error;
+        if(![self.managedObjectContext save:&error])
+        {
+            NSLog(@"Error");
+            //This is a serious error saying the record
+            //could not be saved. Advise the user to
+            //try again or restart the application.
+        }
+    }
+    
+    [self fetchExerciseRecords];
+    
+
+}
+
+-(int)countExerciseRecords
+{
+    // Define our table/entity to use
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+    // Setup the fetch request
+    
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    [request setEntity:entity];
+    
+    // Define how we will sort the records
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [request setSortDescriptors:sortDescriptors];
+    
+    // Fetch the records and handle any error
+    NSError *error;
+    NSMutableArray *mutableFetchResults = [[managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+    if (!mutableFetchResults) {
+        // Handle the error.
+        // This is a serious error and should advise the user to restart the application
+    }
+    return [mutableFetchResults count];
+}
+
+-(void) fetchExerciseRecords
+{
+    // Define our table/entity to use
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
     // Setup the fetch request
     
     NSFetchRequest *request = [[NSFetchRequest alloc] init];

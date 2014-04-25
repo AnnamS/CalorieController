@@ -10,7 +10,11 @@
 
 @interface Workout : NSObject
 
-@property (nonatomic,strong) NSString *units;
-@property (nonatomic,strong) NSString *calories;
+@property (nonatomic,strong) NSString *date;
+@property (nonatomic,strong) NSString *ExcerciseID;
+
+
+
+
 
 @end

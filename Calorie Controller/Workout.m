@@ -9,5 +9,10 @@
 #import "Workout.h"
 
 @implementation Workout
+@dynamic date;
+@dynamic ExcerciseID;
+
+
+
 
 @end
