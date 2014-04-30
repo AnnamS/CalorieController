@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Meal.h"
 #import "Food.h"
-#import "ExerciseCategoryWorkout.h"
+#import "Workout.h"
 #import "Exercise.h"
 
 @interface PersonalDetailsViewController : UIViewController

@@ -228,31 +228,37 @@
     
     if([self countExerciseRecords] == 0)
     {
-      //  Exercise *exercise = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+        Exercise *exercise = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
         
-    //        [exercise setId:@"1"];
-//        [exercise setName:@"Walking"];
-//        [exercise setCalories:@"50"];
-//        [exercise setUnits:@"Distance"];
+        [exercise setId:@"1"];
+        [exercise setName:@"Walking"];
+        [exercise setCalories:@"50"];
+        [exercise setUnits:@"Distance"];
        
         
         
-        //Exercise *exercise2 = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
-        
-        //        [exercise2 setId:@"2"];
-        //        [exercise2 setName:@"Running"];
-        //        [exercise2 setCalories:@"100"];
-        //        [exercise2 setUnits:@"Distance"];
-        
-        
-        
-        //        [exercise2 setId:@"3"];
-        //        [exercise2 setName:@"Running"];
-        //        [exercise2 setCalories:@"150"];
-        //        [exercise2 setUnits:@"Distance"];
-        
-        
-        
+        Exercise *exercise2 = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+
+        [exercise2 setId:@"2"];
+        [exercise2 setName:@"Running"];
+        [exercise2 setCalories:@"100"];
+        [exercise2 setUnits:@"Distance"];
+
+        Exercise *exercise3 = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+
+
+        [exercise3 setId:@"3"];
+        [exercise3 setName:@"cycling"];
+        [exercise3 setCalories:@"75"];
+        [exercise3 setUnits:@"Distance"];
+
+        Exercise *exercise4 = (Exercise *)[NSEntityDescription insertNewObjectForEntityForName:@"Exercise" inManagedObjectContext:managedObjectContext];
+
+
+        [exercise4 setId:@"2"];
+        [exercise4 setName:@"swimming"];
+        [exercise4 setCalories:@"400"];
+        [exercise4 setUnits:@"Distance"];   
         
         NSError *error;
         if(![self.managedObjectContext save:&error])
@@ -321,38 +327,6 @@
         NSLog(@"%@",f.name);
     }
 }
-
-//-(void)setUpExerciseCategories
-//{
-//    self.exerciseCategories = [[ExerciseCategory alloc] init];
-//    
-//    //   ************* Walking *************
-//    ExerciseCategoryWorkout *workoutOne = [[ExerciseCategoryWorkout alloc] init];
-//    workoutOne.units = @"Distance";
-//    workoutOne.calories = @"100";
-//    [self.exerciseCategories addExercise:workoutOne withName:@"Walking"];
-//    
-//    //   ************* Running *************
-//    ExerciseCategoryWorkout *workoutTwo = [[ExerciseCategoryWorkout alloc] init];
-//    workoutTwo.units = @"Distance";
-//    workoutTwo.calories = @"50";
-//    [self.exerciseCategories addExercise:workoutTwo withName:@"Running"];
-//    
-//    //   ************* Cycling *************
-//    ExerciseCategoryWorkout *workoutThree = [[ExerciseCategoryWorkout alloc] init];
-//    workoutThree.units = @"Distance";
-//    workoutThree.calories = @"75";
-//    [self.exerciseCategories addExercise:workoutThree withName:@"Cycling"];
-//
-//    //   ************* Cycling *************
-//    ExerciseCategoryWorkout *workoutFour = [[ExerciseCategoryWorkout alloc] init];
-//    workoutFour.units = @"Distance";
-//    workoutFour.calories = @"400";
-//    [self.exerciseCategories addExercise:workoutFour withName:@"Swimming"];
-//    
-//    //   ************* Show Exercise Categories *************
-//    [self.exerciseCategories returnExerciseCategories];
-//}
 
 - (void)didReceiveMemoryWarning
 {

@@ -563,6 +563,7 @@
 				GCC_PREFIX_HEADER = "Calorie Controller/Calorie Controller-Prefix.pch";
 				INFOPLIST_FILE = "Calorie Controller/Calorie Controller-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -576,6 +577,7 @@
 				GCC_PREFIX_HEADER = "Calorie Controller/Calorie Controller-Prefix.pch";
 				INFOPLIST_FILE = "Calorie Controller/Calorie Controller-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
