@@ -9,5 +9,9 @@
 #import "Exercise.h"
 
 @implementation Exercise
+@dynamic calories;
+@dynamic id;
+@dynamic name;
+@dynamic units;
 
 @end

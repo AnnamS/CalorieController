@@ -10,4 +10,9 @@
 
 @interface Exercise : NSObject
 
+
+@property (nonatomic,strong) NSString *calories;
+@property (nonatomic,strong) NSString *id;
+@property (nonatomic,strong) NSString *name;
+@property (nonatomic,strong) NSString *units;
 @end
