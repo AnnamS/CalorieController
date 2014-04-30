@@ -10,4 +10,11 @@
 
 @implementation User
 
+@dynamic weight;
+@dynamic lastName;
+@dynamic height;
+@dynamic gender;
+@dynamic firstName;
+@dynamic age;
+
 @end

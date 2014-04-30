@@ -10,4 +10,11 @@
 
 @interface User : NSObject
 
+@property (nonatomic,strong) NSString *weight;
+@property (nonatomic,strong) NSString *lastName;
+@property (nonatomic,strong) NSString *height;
+@property (nonatomic,strong) NSString *gender;
+@property (nonatomic,strong) NSString *firstName;
+@property (nonatomic,strong) NSString *age;
+
 @end
