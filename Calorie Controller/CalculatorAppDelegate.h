@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Meal.h"
+#import "Food.h"
+#import "Workout.h"
+#import "Exercise.h"
 
 @interface CalculatorAppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -16,6 +20,35 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
--(void)saveContext;
--(NSURL *)applicationDocumentsDirectory;
+-(void)saveToCoreData;
+
+-(int)countUserRecords;
+-(NSMutableArray *) fetchUserRecords;
+
+-(int)countExcerciseRecords;
+-(NSMutableArray *) fetchExcerciseRecords;
+
+-(int)countWorkoutRecords;
+-(NSMutableArray *) fetchWorkoutRecords;
+
+-(int)countFoodRecords;
+-(NSMutableArray *) fetchFoodRecords;
+
+-(int)countMealRecords;
+-(NSMutableArray *) fetchMealRecords;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end
