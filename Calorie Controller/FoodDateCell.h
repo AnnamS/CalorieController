@@ -1,5 +1,5 @@
 //
-//  DateCell.h
+//  FoodDateCell.h
 //  Calorie Controller
 //
 //  Created by Annam Siddique on 05/05/2014.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DateCell : UITableViewCell
+@interface FoodDateCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *lblDate;
 
