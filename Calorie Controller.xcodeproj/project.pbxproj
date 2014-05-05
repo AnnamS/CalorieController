@@ -34,6 +34,12 @@
 		63BC79271917DC9300589D21 /* FoodDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79261917DC9300589D21 /* FoodDateCell.m */; };
 		63BC792A1917DE0800589D21 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC79291917DE0800589D21 /* FoodCell.xib */; };
 		63BC792D1917DEE600589D21 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC792C1917DEE600589D21 /* FoodCell.m */; };
+		63BC793219180E5800589D21 /* ExerciseDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC793119180E5800589D21 /* ExerciseDateCell.xib */; };
+		63BC793519180EAE00589D21 /* ExerciseDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC793419180EAE00589D21 /* ExerciseDateCell.m */; };
+		63BC793719180F3000589D21 /* WorkoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC793619180F3000589D21 /* WorkoutCell.xib */; };
+		63BC793A1918108E00589D21 /* WorkoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79391918108E00589D21 /* WorkoutCell.m */; };
+		63BC793C1918114500589D21 /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC793B1918114500589D21 /* ExerciseCell.xib */; };
+		63BC793F1918122500589D21 /* ExerciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC793E1918122500589D21 /* ExerciseCell.m */; };
 		74F36EE61917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36EE51917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m */; };
 		74F36EF51917F85C0068A8F6 /* FoodDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36EF41917F85C0068A8F6 /* FoodDateListViewController.m */; };
 		74F36EF81917F8890068A8F6 /* MealListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36EF71917F8890068A8F6 /* MealListViewController.m */; };
@@ -115,6 +121,15 @@
 		63BC79291917DE0800589D21 /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
 		63BC792B1917DEE600589D21 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
 		63BC792C1917DEE600589D21 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
+		63BC793119180E5800589D21 /* ExerciseDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseDateCell.xib; sourceTree = "<group>"; };
+		63BC793319180EAE00589D21 /* ExerciseDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDateCell.h; sourceTree = "<group>"; };
+		63BC793419180EAE00589D21 /* ExerciseDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDateCell.m; sourceTree = "<group>"; };
+		63BC793619180F3000589D21 /* WorkoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutCell.xib; sourceTree = "<group>"; };
+		63BC79381918108E00589D21 /* WorkoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutCell.h; sourceTree = "<group>"; };
+		63BC79391918108E00589D21 /* WorkoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutCell.m; sourceTree = "<group>"; };
+		63BC793B1918114500589D21 /* ExerciseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseCell.xib; sourceTree = "<group>"; };
+		63BC793D1918122500589D21 /* ExerciseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell.h; sourceTree = "<group>"; };
+		63BC793E1918122500589D21 /* ExerciseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell.m; sourceTree = "<group>"; };
 		74F36EE41917E20B0068A8F6 /* iPhonePersonalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhonePersonalDetailsViewController.h; sourceTree = "<group>"; };
 		74F36EE51917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhonePersonalDetailsViewController.m; sourceTree = "<group>"; };
 		74F36EF31917F85C0068A8F6 /* FoodDateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDateListViewController.h; sourceTree = "<group>"; };
@@ -374,14 +389,14 @@
 			name = "Custom Cells";
 			sourceTree = "<group>";
 		};
-		63BC79191917C2BB00589D21 /* Date Cell */ = {
+		63BC79191917C2BB00589D21 /* Food Date Cell */ = {
 			isa = PBXGroup;
 			children = (
 				63BC791A1917C2F800589D21 /* FoodDateCell.xib */,
 				63BC79251917DC9300589D21 /* FoodDateCell.h */,
 				63BC79261917DC9300589D21 /* FoodDateCell.m */,
 			);
-			name = "Date Cell";
+			name = "Food Date Cell";
 			sourceTree = "<group>";
 		};
 		63BC791F1917C47700589D21 /* Meal Cell */ = {
@@ -402,6 +417,36 @@
 				63BC792C1917DEE600589D21 /* FoodCell.m */,
 			);
 			name = "Food Cell";
+			sourceTree = "<group>";
+		};
+		63BC792E19180CB600589D21 /* Exercise Date Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63BC793119180E5800589D21 /* ExerciseDateCell.xib */,
+				63BC793319180EAE00589D21 /* ExerciseDateCell.h */,
+				63BC793419180EAE00589D21 /* ExerciseDateCell.m */,
+			);
+			name = "Exercise Date Cell";
+			sourceTree = "<group>";
+		};
+		63BC792F19180CBC00589D21 /* Workout Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63BC793619180F3000589D21 /* WorkoutCell.xib */,
+				63BC79381918108E00589D21 /* WorkoutCell.h */,
+				63BC79391918108E00589D21 /* WorkoutCell.m */,
+			);
+			name = "Workout Cell";
+			sourceTree = "<group>";
+		};
+		63BC793019180CC300589D21 /* Exercise Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63BC793B1918114500589D21 /* ExerciseCell.xib */,
+				63BC793D1918122500589D21 /* ExerciseCell.h */,
+				63BC793E1918122500589D21 /* ExerciseCell.m */,
+			);
+			name = "Exercise Cell";
 			sourceTree = "<group>";
 		};
 		74F36EDF1917E09D0068A8F6 /* Personal Details */ = {
@@ -606,9 +651,9 @@
 		74F36F1E1917FE920068A8F6 /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				63BC79281917DDB300589D21 /* Food Cell */,
+				63BC79191917C2BB00589D21 /* Food Date Cell */,
 				63BC791F1917C47700589D21 /* Meal Cell */,
-				63BC79191917C2BB00589D21 /* Date Cell */,
+				63BC79281917DDB300589D21 /* Food Cell */,
 			);
 			name = Food;
 			sourceTree = "<group>";
@@ -626,6 +671,9 @@
 		74F36F201917FEC10068A8F6 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				63BC792E19180CB600589D21 /* Exercise Date Cell */,
+				63BC792F19180CBC00589D21 /* Workout Cell */,
+				63BC793019180CC300589D21 /* Exercise Cell */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -777,12 +825,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F36F221917FFF60068A8F6 /* iPhoneFoodDateCell.xib in Resources */,
+				63BC793219180E5800589D21 /* ExerciseDateCell.xib in Resources */,
 				63BC79211917C6D600589D21 /* MealCell.xib in Resources */,
 				74F36F361918065C0068A8F6 /* iPhoneExerciseDateCell.xib in Resources */,
 				632075C818DA015E00C82FAF /* Main_iPad.storyboard in Resources */,
 				632075D018DA015E00C82FAF /* Images.xcassets in Resources */,
 				74F36F4019180ABD0068A8F6 /* iPhoneExerciseCell.xib in Resources */,
 				74F36F2C191802540068A8F6 /* iPhoneFoodCell.xib in Resources */,
+				63BC793719180F3000589D21 /* WorkoutCell.xib in Resources */,
+				63BC793C1918114500589D21 /* ExerciseCell.xib in Resources */,
 				632075C518DA015E00C82FAF /* Main_iPhone.storyboard in Resources */,
 				74F36F27191800720068A8F6 /* iPhoneMealCell.xib in Resources */,
 				74F36F3B191807D70068A8F6 /* iPhoneWorkoutCell.xib in Resources */,
@@ -834,13 +885,16 @@
 				74F36F4319180BC90068A8F6 /* iPhoneExerciseCell.m in Sources */,
 				74F36F101917F9E30068A8F6 /* NewExerciseViewController.m in Sources */,
 				6331BFF11908443E00149DFD /* User.m in Sources */,
+				63BC793F1918122500589D21 /* ExerciseCell.m in Sources */,
 				74F36F131917FA090068A8F6 /* SummaryDateListViewController.m in Sources */,
 				74F36EE61917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m in Sources */,
 				74F36F2A191801CE0068A8F6 /* iPhoneMealCell.m in Sources */,
 				632075BE18DA015E00C82FAF /* main.m in Sources */,
 				74F36F071917F93F0068A8F6 /* WorkoutListViewController.m in Sources */,
 				6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */,
+				63BC793519180EAE00589D21 /* ExerciseDateCell.m in Sources */,
 				6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */,
+				63BC793A1918108E00589D21 /* WorkoutCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
