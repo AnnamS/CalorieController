@@ -144,6 +144,38 @@
 
 //**************************** USER ****************************//
 
+//DELETE USER RECORDS
+-(void)deleteUserRecords
+{
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"User" inManagedObjectContext:self.managedObjectContext];
+    // Setup the fetch request
+    
+    NSFetchRequest *request = [[NSFetchRequest alloc] init];
+    [request setEntity:entity];
+    
+    // Define how we will sort the records
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"lastName" ascending:YES];
+    NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
+    [request setSortDescriptors:sortDescriptors];
+    
+    // Fetch the records and handle any error
+    NSError *error;
+    NSMutableArray *mutableFetchResults = [[self.managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
+
+    if (!mutableFetchResults)
+    {
+        // Handle the error.
+        // This is a serious error and should advise the user to restart the application
+    }
+    
+    for (NSManagedObject *user in mutableFetchResults)
+    {
+        [self.managedObjectContext deleteObject:user];
+    }
+
+}
+
+
 //COUNT USER
 -(int)countUserRecords
 {

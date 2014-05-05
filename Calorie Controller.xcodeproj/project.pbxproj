@@ -28,6 +28,12 @@
 		632075E118DA015E00C82FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 632075DF18DA015E00C82FAF /* InfoPlist.strings */; };
 		632075E318DA015E00C82FAF /* Calorie_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */; };
 		6331BFF11908443E00149DFD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331BFF01908443E00149DFD /* User.m */; };
+		63BC791B1917C2F800589D21 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC791A1917C2F800589D21 /* DateCell.xib */; };
+		63BC79211917C6D600589D21 /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC79201917C6D600589D21 /* MealCell.xib */; };
+		63BC79241917DC7000589D21 /* MealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79231917DC7000589D21 /* MealCell.m */; };
+		63BC79271917DC9300589D21 /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79261917DC9300589D21 /* DateCell.m */; };
+		63BC792A1917DE0800589D21 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC79291917DE0800589D21 /* FoodCell.xib */; };
+		63BC792D1917DEE600589D21 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC792C1917DEE600589D21 /* FoodCell.m */; };
 		DC3CE29E18E34259004B629B /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE29D18E34259004B629B /* Food.m */; };
 		DC3CE2A218E34287004B629B /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A118E34287004B629B /* Meal.m */; };
 		DC3CE2AA18E34877004B629B /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3CE2A918E34877004B629B /* Exercise.m */; };
@@ -75,6 +81,15 @@
 		632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calorie_ControllerTests.m; sourceTree = "<group>"; };
 		6331BFEF1908443E00149DFD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		6331BFF01908443E00149DFD /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		63BC791A1917C2F800589D21 /* DateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
+		63BC79201917C6D600589D21 /* MealCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealCell.xib; sourceTree = "<group>"; };
+		63BC79221917DC7000589D21 /* MealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealCell.h; sourceTree = "<group>"; };
+		63BC79231917DC7000589D21 /* MealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCell.m; sourceTree = "<group>"; };
+		63BC79251917DC9300589D21 /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		63BC79261917DC9300589D21 /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
+		63BC79291917DE0800589D21 /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
+		63BC792B1917DEE600589D21 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
+		63BC792C1917DEE600589D21 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
 		DC3CE29C18E34259004B629B /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
 		DC3CE29D18E34259004B629B /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		DC3CE2A018E34287004B629B /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
@@ -157,6 +172,7 @@
 		6302AE6F18E0996400FEAA16 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
+				63BC79181917C28800589D21 /* Custom Cells */,
 				632075C618DA015E00C82FAF /* Main_iPad.storyboard */,
 				6302AE6218E094EE00FEAA16 /* Summary */,
 				6302AE6118E094DC00FEAA16 /* Exercise */,
@@ -275,6 +291,46 @@
 			name = Meal;
 			sourceTree = "<group>";
 		};
+		63BC79181917C28800589D21 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63BC79281917DDB300589D21 /* Food Cell */,
+				63BC791F1917C47700589D21 /* Meal Cell */,
+				63BC79191917C2BB00589D21 /* Date Cell */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		63BC79191917C2BB00589D21 /* Date Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63BC791A1917C2F800589D21 /* DateCell.xib */,
+				63BC79251917DC9300589D21 /* DateCell.h */,
+				63BC79261917DC9300589D21 /* DateCell.m */,
+			);
+			name = "Date Cell";
+			sourceTree = "<group>";
+		};
+		63BC791F1917C47700589D21 /* Meal Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63BC79201917C6D600589D21 /* MealCell.xib */,
+				63BC79221917DC7000589D21 /* MealCell.h */,
+				63BC79231917DC7000589D21 /* MealCell.m */,
+			);
+			name = "Meal Cell";
+			sourceTree = "<group>";
+		};
+		63BC79281917DDB300589D21 /* Food Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63BC79291917DE0800589D21 /* FoodCell.xib */,
+				63BC792B1917DEE600589D21 /* FoodCell.h */,
+				63BC792C1917DEE600589D21 /* FoodCell.m */,
+			);
+			name = "Food Cell";
+			sourceTree = "<group>";
+		};
 		DC3CE29B18E33945004B629B /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,10 +447,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BC79211917C6D600589D21 /* MealCell.xib in Resources */,
 				632075C818DA015E00C82FAF /* Main_iPad.storyboard in Resources */,
 				632075D018DA015E00C82FAF /* Images.xcassets in Resources */,
 				632075C518DA015E00C82FAF /* Main_iPhone.storyboard in Resources */,
 				632075BC18DA015E00C82FAF /* InfoPlist.strings in Resources */,
+				63BC792A1917DE0800589D21 /* FoodCell.xib in Resources */,
+				63BC791B1917C2F800589D21 /* DateCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,12 +473,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */,
+				63BC79271917DC9300589D21 /* DateCell.m in Sources */,
 				DC3CE2AA18E34877004B629B /* Exercise.m in Sources */,
 				630231A7190569C00071BD02 /* CalorieController.xcdatamodeld in Sources */,
 				632075C218DA015E00C82FAF /* CalculatorAppDelegate.m in Sources */,
 				DC3CE2A218E34287004B629B /* Meal.m in Sources */,
 				DC3CE2AD18E34886004B629B /* Workout.m in Sources */,
+				63BC792D1917DEE600589D21 /* FoodCell.m in Sources */,
 				6302AE6E18E0960F00FEAA16 /* SummarySplitViewController.m in Sources */,
+				63BC79241917DC7000589D21 /* MealCell.m in Sources */,
 				DC3CE29E18E34259004B629B /* Food.m in Sources */,
 				6331BFF11908443E00149DFD /* User.m in Sources */,
 				632075BE18DA015E00C82FAF /* main.m in Sources */,

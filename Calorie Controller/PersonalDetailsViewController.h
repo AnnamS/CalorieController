@@ -7,11 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Meal.h"
-#import "Food.h"
-#import "Workout.h"
-#import "Exercise.h"
+#import "User.h"
+#import "CalculatorAppDelegate.h"
 
 @interface PersonalDetailsViewController : UIViewController
+
+@property CalculatorAppDelegate *appDelegate;
+@property (weak, nonatomic) IBOutlet UITextField *tbFirstname;
+@property (weak, nonatomic) IBOutlet UITextField *tbSurname;
+@property (weak, nonatomic) IBOutlet UITextField *tbAge;
+@property (weak, nonatomic) IBOutlet UITextField *tbGender;
+@property (weak, nonatomic) IBOutlet UITextField *tbHeight;
+@property (weak, nonatomic) IBOutlet UITextField *tbWeight;
+@property (weak, nonatomic) IBOutlet UILabel *lblSaveUserError;
 
 @end

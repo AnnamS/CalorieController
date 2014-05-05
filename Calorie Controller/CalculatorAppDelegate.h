@@ -11,6 +11,7 @@
 #import "Food.h"
 #import "Workout.h"
 #import "Exercise.h"
+#import "User.h"
 
 @interface CalculatorAppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -22,11 +23,12 @@
 
 -(void)saveToCoreData;
 
+-(void)deleteUserRecords;
 -(int)countUserRecords;
 -(NSMutableArray *) fetchUserRecords;
 
--(int)countExcerciseRecords;
--(NSMutableArray *) fetchExcerciseRecords;
+-(int)countExerciseRecords;
+-(NSMutableArray *) fetchExerciseRecords;
 
 -(int)countWorkoutRecords;
 -(NSMutableArray *) fetchWorkoutRecords;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -98,6 +98,9 @@
                                 <state key="normal" title="Save">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnSaveUser:" destination="9pv-A4-QxB" eventType="touchUpInside" id="7bw-zp-QwE"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qbi-uA-9Vh">
                                 <rect key="frame" x="0.0" y="44" width="768" height="44"/>
@@ -107,6 +110,12 @@
                                     <navigationItem title="Personal Details" id="Gzc-4z-UXN"/>
                                 </items>
                             </navigationBar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please Fill in ALL fields." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGO-wR-1wf">
+                                <rect key="frame" x="102" y="853" width="181" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -116,6 +125,15 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="lblSaveUserError" destination="PGO-wR-1wf" id="gXE-qb-Omu"/>
+                        <outlet property="tbAge" destination="MNQ-uY-P7c" id="DTj-z4-Em6"/>
+                        <outlet property="tbFirstname" destination="S3V-vb-6J7" id="X0S-YM-Cxh"/>
+                        <outlet property="tbGender" destination="Ffo-nS-2tE" id="Ray-15-dLU"/>
+                        <outlet property="tbHeight" destination="aTu-Ll-M6j" id="Ufa-F8-mv1"/>
+                        <outlet property="tbSurname" destination="DIF-9z-8HW" id="vpz-yo-Adg"/>
+                        <outlet property="tbWeight" destination="Aax-qM-Lnr" id="VaD-JH-4fC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
