@@ -1,14 +1,14 @@
 //
-//  FoodDateCell.m
+//  DateCell
 //  Calorie Controller
 //
 //  Created by Annam Siddique on 05/05/2014.
 //  Copyright (c) 2014 Annam Siddique. All rights reserved.
 //
 
-#import "FoodDateCell.h"
+#import "DateCell.h"
 
-@implementation FoodDateCell
+@implementation DateCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

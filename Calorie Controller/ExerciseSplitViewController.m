@@ -26,6 +26,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.exerciseMasterNavigationController = [self.viewControllers objectAtIndex:0];
+    self.exerciseMasterController = (ExerciseMasterController *)[self.exerciseMasterNavigationController topViewController];
+    self.exerciseMasterController.exerciseDelegate = self;
+    self.exerciseDetailController = [self.viewControllers objectAtIndex:1];
     // Do any additional setup after loading the view.
 }
 
@@ -35,6 +39,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)exerciseMasterController:(ExerciseMasterController *)exerciseMasterController didChooseDate:(NSString *)date
+{
+    self.exerciseDetailController.date = date;
+    [self.exerciseDetailController updateWorkoutList];
+}
 /*
 #pragma mark - Navigation
 

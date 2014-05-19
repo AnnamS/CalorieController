@@ -10,8 +10,8 @@
 
 @implementation Workout
 @dynamic date;
-@dynamic ExcerciseID;
-
+@dynamic exerciseID;
+@dynamic timeDistance;
 
 
 

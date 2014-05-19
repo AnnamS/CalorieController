@@ -12,5 +12,5 @@
 
 @dynamic foodID;
 @dynamic date;
-
+@dynamic weight;
 @end

@@ -1,18 +1,18 @@
 //
-//  FoodSplitViewController.m
+//  SummaryDetailController.m
 //  Calorie Controller
 //
-//  Created by Annam Siddique on 24/03/2014.
+//  Created by Annam Siddique on 17/05/2014.
 //  Copyright (c) 2014 Annam Siddique. All rights reserved.
 //
 
-#import "FoodSplitViewController.h"
+#import "SummaryDetailController.h"
 
-@interface FoodSplitViewController ()
+@interface SummaryDetailController ()
 
 @end
 
-@implementation FoodSplitViewController
+@implementation SummaryDetailController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,11 +27,6 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.foodMasterNavigationController = [self.viewControllers objectAtIndex:0];
-    self.foodMasterController = (FoodMasterController *)[self.foodMasterNavigationController topViewController];
-    self.foodMasterController.foodDelegate = self;
-    self.foodDetailController = [self.viewControllers objectAtIndex:1];
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,11 +35,6 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)foodMasterController:(FoodMasterController *)foodMasterController didChooseDate:(NSString *)date
-{
-    self.foodDetailController.date = date;
-    [self.foodDetailController updateMealList];
-}
 /*
 #pragma mark - Navigation
 

@@ -40,6 +40,7 @@
         self.tbHeight.text = user.height;
         self.tbWeight.text = user.weight;
     }
+    
     // Do any additional setup after loading the view.
 }
 
@@ -77,6 +78,7 @@
     {
         //Save to Core Data
         self.lblSaveUserError.hidden = YES;
+       
         if([appDelegate countUserRecords] != 0)
         {
             [appDelegate deleteUserRecords];

@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblName;
 @property (weak, nonatomic) IBOutlet UILabel *lblCalories;
 @property (weak, nonatomic) IBOutlet UILabel *lblWeight;
-@property (weak, nonatomic) IBOutlet UILabel *lblTime;
+
+@property (weak, nonatomic) IBOutlet UILabel *lblCalsPerGram;
 
 @end

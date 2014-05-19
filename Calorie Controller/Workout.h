@@ -10,8 +10,9 @@
 
 @interface Workout : NSObject
 
+@property (nonatomic,strong) NSString *timeDistance;
 @property (nonatomic,strong) NSString *date;
-@property (nonatomic,strong) NSString *ExcerciseID;
+@property (nonatomic,strong) NSString *exerciseID;
 
 
 

@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExerciseMasterController.h"
+#import "ExerciseDetailController.h"
 
-@interface ExerciseSplitViewController : UISplitViewController
+@interface ExerciseSplitViewController : UISplitViewController <ExerciseMasterControllerDelegate>
+
+@property (nonatomic,strong) UINavigationController *exerciseMasterNavigationController;
+@property (nonatomic,strong) ExerciseMasterController *exerciseMasterController;
+@property (nonatomic,strong) ExerciseDetailController *exerciseDetailController;
 
 @end

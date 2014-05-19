@@ -12,4 +12,5 @@
 
 @property (nonatomic,strong) NSString *foodID;
 @property (nonatomic,strong) NSString *date;
+@property (nonatomic,strong) NSString *weight;
 @end

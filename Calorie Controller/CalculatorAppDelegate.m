@@ -147,29 +147,27 @@
 //DELETE USER RECORDS
 -(void)deleteUserRecords
 {
-    NSEntityDescription *entity = [NSEntityDescription entityForName:@"User" inManagedObjectContext:self.managedObjectContext];
-    // Setup the fetch request
     
+    //Name entity we want
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"User" inManagedObjectContext:self.managedObjectContext];
+    
+    //Get all records from that entity
     NSFetchRequest *request = [[NSFetchRequest alloc] init];
     [request setEntity:entity];
     
-    // Define how we will sort the records
+    //Sort by last name
     NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"lastName" ascending:YES];
     NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
     [request setSortDescriptors:sortDescriptors];
     
-    // Fetch the records and handle any error
+    //Put all records in array
     NSError *error;
     NSMutableArray *mutableFetchResults = [[self.managedObjectContext executeFetchRequest:request error:&error] mutableCopy];
 
-    if (!mutableFetchResults)
-    {
-        // Handle the error.
-        // This is a serious error and should advise the user to restart the application
-    }
-    
+    //Go through array and delete all
     for (NSManagedObject *user in mutableFetchResults)
     {
+        
         [self.managedObjectContext deleteObject:user];
     }
 
@@ -247,21 +245,21 @@
         [food setId:@"1"];
         [food setName:@"Omelette"];
         [food setCalories:@"50"];
-        [food setCategory:@"breakfast"];
+        [food setCategory:@"Breakfast"];
         
         Food *food2 = (Food *)[NSEntityDescription insertNewObjectForEntityForName:@"Food" inManagedObjectContext:self.managedObjectContext];
         
         [food2 setId:@"2"];
         [food2 setName:@"2 Slice Toast"];
         [food2 setCalories:@"20"];
-        [food2 setCategory:@"breakfast"];
+        [food2 setCategory:@"Breakfast"];
         
         Food *food3 = (Food *)[NSEntityDescription insertNewObjectForEntityForName:@"Food" inManagedObjectContext:self.managedObjectContext];
         
         [food3 setId:@"3"];
         [food3 setName:@"Coco Pop"];
         [food3 setCalories:@"30"];
-        [food3 setCategory:@"breakfast"];
+        [food3 setCategory:@"Breakfast"];
         
         Food *food4 = (Food *)[NSEntityDescription insertNewObjectForEntityForName:@"Food" inManagedObjectContext:self.managedObjectContext];
         
@@ -357,7 +355,7 @@
         }
     }
     
-    [self fetchFoodRecords];
+//    [self fetchFoodRecords];
     
     
 }
@@ -373,7 +371,7 @@
     [request setEntity:entity];
     
     // Define how we will sort the records
-    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"category" ascending:YES];
     NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
     [request setSortDescriptors:sortDescriptors];
     
@@ -398,7 +396,7 @@
     [request setEntity:entity];
     
     // Define how we will sort the records
-    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"name" ascending:YES];
+    NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"category" ascending:YES];
     NSArray *sortDescriptors = [NSArray arrayWithObject:sortDescriptor];
     [request setSortDescriptors:sortDescriptors];
     

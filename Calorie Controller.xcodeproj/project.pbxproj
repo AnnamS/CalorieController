@@ -27,23 +27,36 @@
 		632075D918DA015E00C82FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632075B518DA015E00C82FAF /* UIKit.framework */; };
 		632075E118DA015E00C82FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 632075DF18DA015E00C82FAF /* InfoPlist.strings */; };
 		632075E318DA015E00C82FAF /* Calorie_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */; };
+		632A1BB3192552D100356593 /* FoodMasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A1BB2192552D100356593 /* FoodMasterController.m */; };
+		632A1BC019256FEA00356593 /* DatePopOverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A1BBE19256FEA00356593 /* DatePopOverController.m */; };
+		632A1BC119256FEA00356593 /* DatePopOverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632A1BBF19256FEA00356593 /* DatePopOverController.xib */; };
 		6331BFF11908443E00149DFD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 6331BFF01908443E00149DFD /* User.m */; };
-		63BC791B1917C2F800589D21 /* FoodDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC791A1917C2F800589D21 /* FoodDateCell.xib */; };
+		6332775A1927C8F400EE7A62 /* FoodDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633277591927C8F400EE7A62 /* FoodDetailController.m */; };
+		633277601927CA4200EE7A62 /* ExerciseDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332775F1927CA4200EE7A62 /* ExerciseDetailController.m */; };
+		633277641927D9FA00EE7A62 /* SummaryDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633277631927D9FA00EE7A62 /* SummaryDetailController.m */; };
+		6374D388192967F200F0DC1B /* AddViewFoodController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374D387192967F200F0DC1B /* AddViewFoodController.m */; };
+		6374D38E19297C9600F0DC1B /* MealPopOverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374D38C19297C9600F0DC1B /* MealPopOverController.m */; };
+		6374D38F19297C9600F0DC1B /* MealPopOverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6374D38D19297C9600F0DC1B /* MealPopOverController.xib */; };
+		6374D3941929B29C00F0DC1B /* WorkoutPopOverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374D3921929B29C00F0DC1B /* WorkoutPopOverController.m */; };
+		6374D3951929B29C00F0DC1B /* WorkoutPopOverController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6374D3931929B29C00F0DC1B /* WorkoutPopOverController.xib */; };
+		6374D3991929C57B00F0DC1B /* AddViewExerciseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374D3981929C57B00F0DC1B /* AddViewExerciseController.m */; };
+		638FC9921928BAF600D67E6F /* personaldetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 638FC9911928BAF600D67E6F /* personaldetail.png */; };
+		63BC791B1917C2F800589D21 /* DateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC791A1917C2F800589D21 /* DateCell.xib */; };
 		63BC79211917C6D600589D21 /* MealCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC79201917C6D600589D21 /* MealCell.xib */; };
 		63BC79241917DC7000589D21 /* MealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79231917DC7000589D21 /* MealCell.m */; };
-		63BC79271917DC9300589D21 /* FoodDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79261917DC9300589D21 /* FoodDateCell.m */; };
+		63BC79271917DC9300589D21 /* DateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79261917DC9300589D21 /* DateCell.m */; };
 		63BC792A1917DE0800589D21 /* FoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC79291917DE0800589D21 /* FoodCell.xib */; };
 		63BC792D1917DEE600589D21 /* FoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC792C1917DEE600589D21 /* FoodCell.m */; };
-		63BC793219180E5800589D21 /* ExerciseDateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC793119180E5800589D21 /* ExerciseDateCell.xib */; };
-		63BC793519180EAE00589D21 /* ExerciseDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC793419180EAE00589D21 /* ExerciseDateCell.m */; };
 		63BC793719180F3000589D21 /* WorkoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC793619180F3000589D21 /* WorkoutCell.xib */; };
 		63BC793A1918108E00589D21 /* WorkoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC79391918108E00589D21 /* WorkoutCell.m */; };
 		63BC793C1918114500589D21 /* ExerciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC793B1918114500589D21 /* ExerciseCell.xib */; };
 		63BC793F1918122500589D21 /* ExerciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC793E1918122500589D21 /* ExerciseCell.m */; };
-		63BC79441919512D00589D21 /* SummaryDatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC79431919512D00589D21 /* SummaryDatCell.xib */; };
-		63BC7947191951FF00589D21 /* SummaryDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC7946191951FF00589D21 /* SummaryDateCell.m */; };
 		63BC794A191952EC00589D21 /* ActivitiesRemainingCaloriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BC7949191952EC00589D21 /* ActivitiesRemainingCaloriesCell.xib */; };
 		63BC794D191953D800589D21 /* ActivitesRemainingCaloriesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC794C191953D800589D21 /* ActivitesRemainingCaloriesCell.m */; };
+		63EB8BD21928B2F800FD8DBC /* ExerciseMasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EB8BD11928B2F800FD8DBC /* ExerciseMasterController.m */; };
+		63EB8BD71928B70300FD8DBC /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB8BD51928B70300FD8DBC /* food.png */; };
+		63EB8BD81928B70300FD8DBC /* exercise.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB8BD61928B70300FD8DBC /* exercise.png */; };
+		63EB8BDA1928B79500FD8DBC /* summary.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB8BD91928B79500FD8DBC /* summary.png */; };
 		74F36EE61917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36EE51917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m */; };
 		74F36EF51917F85C0068A8F6 /* FoodDateListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36EF41917F85C0068A8F6 /* FoodDateListViewController.m */; };
 		74F36EF81917F8890068A8F6 /* MealListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F36EF71917F8890068A8F6 /* MealListViewController.m */; };
@@ -114,32 +127,53 @@
 		632075DE18DA015E00C82FAF /* Calorie ControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calorie ControllerTests-Info.plist"; sourceTree = "<group>"; };
 		632075E018DA015E00C82FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		632075E218DA015E00C82FAF /* Calorie_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calorie_ControllerTests.m; sourceTree = "<group>"; };
+		632A1BB1192552D100356593 /* FoodMasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodMasterController.h; sourceTree = "<group>"; };
+		632A1BB2192552D100356593 /* FoodMasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodMasterController.m; sourceTree = "<group>"; };
+		632A1BBD19256FEA00356593 /* DatePopOverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePopOverController.h; sourceTree = "<group>"; };
+		632A1BBE19256FEA00356593 /* DatePopOverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePopOverController.m; sourceTree = "<group>"; };
+		632A1BBF19256FEA00356593 /* DatePopOverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePopOverController.xib; sourceTree = "<group>"; };
 		6331BFEF1908443E00149DFD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		6331BFF01908443E00149DFD /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		63BC791A1917C2F800589D21 /* FoodDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDateCell.xib; sourceTree = "<group>"; };
+		633277581927C8F400EE7A62 /* FoodDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailController.h; sourceTree = "<group>"; };
+		633277591927C8F400EE7A62 /* FoodDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailController.m; sourceTree = "<group>"; };
+		6332775E1927CA4200EE7A62 /* ExerciseDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDetailController.h; sourceTree = "<group>"; };
+		6332775F1927CA4200EE7A62 /* ExerciseDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDetailController.m; sourceTree = "<group>"; };
+		633277621927D9FA00EE7A62 /* SummaryDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryDetailController.h; sourceTree = "<group>"; };
+		633277631927D9FA00EE7A62 /* SummaryDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryDetailController.m; sourceTree = "<group>"; };
+		6374D386192967F200F0DC1B /* AddViewFoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewFoodController.h; sourceTree = "<group>"; };
+		6374D387192967F200F0DC1B /* AddViewFoodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewFoodController.m; sourceTree = "<group>"; };
+		6374D38B19297C9600F0DC1B /* MealPopOverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPopOverController.h; sourceTree = "<group>"; };
+		6374D38C19297C9600F0DC1B /* MealPopOverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPopOverController.m; sourceTree = "<group>"; };
+		6374D38D19297C9600F0DC1B /* MealPopOverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealPopOverController.xib; sourceTree = "<group>"; };
+		6374D3911929B29C00F0DC1B /* WorkoutPopOverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutPopOverController.h; sourceTree = "<group>"; };
+		6374D3921929B29C00F0DC1B /* WorkoutPopOverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutPopOverController.m; sourceTree = "<group>"; };
+		6374D3931929B29C00F0DC1B /* WorkoutPopOverController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutPopOverController.xib; sourceTree = "<group>"; };
+		6374D3971929C57B00F0DC1B /* AddViewExerciseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewExerciseController.h; sourceTree = "<group>"; };
+		6374D3981929C57B00F0DC1B /* AddViewExerciseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewExerciseController.m; sourceTree = "<group>"; };
+		638FC9911928BAF600D67E6F /* personaldetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personaldetail.png; sourceTree = "<group>"; };
+		63BC791A1917C2F800589D21 /* DateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateCell.xib; sourceTree = "<group>"; };
 		63BC79201917C6D600589D21 /* MealCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealCell.xib; sourceTree = "<group>"; };
 		63BC79221917DC7000589D21 /* MealCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealCell.h; sourceTree = "<group>"; };
 		63BC79231917DC7000589D21 /* MealCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealCell.m; sourceTree = "<group>"; };
-		63BC79251917DC9300589D21 /* FoodDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDateCell.h; sourceTree = "<group>"; };
-		63BC79261917DC9300589D21 /* FoodDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDateCell.m; sourceTree = "<group>"; };
+		63BC79251917DC9300589D21 /* DateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCell.h; sourceTree = "<group>"; };
+		63BC79261917DC9300589D21 /* DateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCell.m; sourceTree = "<group>"; };
 		63BC79291917DE0800589D21 /* FoodCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodCell.xib; sourceTree = "<group>"; };
 		63BC792B1917DEE600589D21 /* FoodCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCell.h; sourceTree = "<group>"; };
 		63BC792C1917DEE600589D21 /* FoodCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCell.m; sourceTree = "<group>"; };
-		63BC793119180E5800589D21 /* ExerciseDateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseDateCell.xib; sourceTree = "<group>"; };
-		63BC793319180EAE00589D21 /* ExerciseDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDateCell.h; sourceTree = "<group>"; };
-		63BC793419180EAE00589D21 /* ExerciseDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDateCell.m; sourceTree = "<group>"; };
 		63BC793619180F3000589D21 /* WorkoutCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutCell.xib; sourceTree = "<group>"; };
 		63BC79381918108E00589D21 /* WorkoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutCell.h; sourceTree = "<group>"; };
 		63BC79391918108E00589D21 /* WorkoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutCell.m; sourceTree = "<group>"; };
 		63BC793B1918114500589D21 /* ExerciseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseCell.xib; sourceTree = "<group>"; };
 		63BC793D1918122500589D21 /* ExerciseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseCell.h; sourceTree = "<group>"; };
 		63BC793E1918122500589D21 /* ExerciseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseCell.m; sourceTree = "<group>"; };
-		63BC79431919512D00589D21 /* SummaryDatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SummaryDatCell.xib; sourceTree = "<group>"; };
-		63BC7945191951FF00589D21 /* SummaryDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SummaryDateCell.h; sourceTree = "<group>"; };
-		63BC7946191951FF00589D21 /* SummaryDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SummaryDateCell.m; sourceTree = "<group>"; };
 		63BC7949191952EC00589D21 /* ActivitiesRemainingCaloriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivitiesRemainingCaloriesCell.xib; sourceTree = "<group>"; };
 		63BC794B191953D800589D21 /* ActivitesRemainingCaloriesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivitesRemainingCaloriesCell.h; sourceTree = "<group>"; };
 		63BC794C191953D800589D21 /* ActivitesRemainingCaloriesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivitesRemainingCaloriesCell.m; sourceTree = "<group>"; };
+		63EB8BD01928B2F800FD8DBC /* ExerciseMasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseMasterController.h; sourceTree = "<group>"; };
+		63EB8BD11928B2F800FD8DBC /* ExerciseMasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseMasterController.m; sourceTree = "<group>"; };
+		63EB8BD51928B70300FD8DBC /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		63EB8BD61928B70300FD8DBC /* exercise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exercise.png; sourceTree = "<group>"; };
+		63EB8BD91928B79500FD8DBC /* summary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summary.png; sourceTree = "<group>"; };
 		74F36EE41917E20B0068A8F6 /* iPhonePersonalDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhonePersonalDetailsViewController.h; sourceTree = "<group>"; };
 		74F36EE51917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhonePersonalDetailsViewController.m; sourceTree = "<group>"; };
 		74F36EF31917F85C0068A8F6 /* FoodDateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDateListViewController.h; sourceTree = "<group>"; };
@@ -239,6 +273,9 @@
 		6302AE6018E094C200FEAA16 /* Food */ = {
 			isa = PBXGroup;
 			children = (
+				6374D385192967D500F0DC1B /* Add / View Food */,
+				633277571927C8D100EE7A62 /* Detail */,
+				632A1BB0192552B600356593 /* Master */,
 				6302AE6618E095D200FEAA16 /* FoodSplitViewController.h */,
 				6302AE6718E095D200FEAA16 /* FoodSplitViewController.m */,
 			);
@@ -248,6 +285,9 @@
 		6302AE6118E094DC00FEAA16 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				6374D3961929C56200F0DC1B /* Add / View Exercise */,
+				6332775C1927CA1700EE7A62 /* Detail */,
+				6332775B1927CA1000EE7A62 /* Master */,
 				6302AE6918E095F400FEAA16 /* ExerciseSplitViewController.h */,
 				6302AE6A18E095F400FEAA16 /* ExerciseSplitViewController.m */,
 			);
@@ -257,6 +297,8 @@
 		6302AE6218E094EE00FEAA16 /* Summary */ = {
 			isa = PBXGroup;
 			children = (
+				63EB8BD31928B4C400FD8DBC /* Master */,
+				633277611927CA4F00EE7A62 /* Detail */,
 				6302AE6C18E0960F00FEAA16 /* SummarySplitViewController.h */,
 				6302AE6D18E0960F00FEAA16 /* SummarySplitViewController.m */,
 			);
@@ -268,6 +310,7 @@
 			children = (
 				632075C618DA015E00C82FAF /* Main_iPad.storyboard */,
 				63BC79181917C28800589D21 /* Custom Cells */,
+				632A1BBC19256FC100356593 /* PopOver */,
 				6302AE5F18E094AC00FEAA16 /* Personal Details */,
 				6302AE6018E094C200FEAA16 /* Food */,
 				6302AE6118E094DC00FEAA16 /* Exercise */,
@@ -289,13 +332,13 @@
 			name = iPhone;
 			sourceTree = "<group>";
 		};
-		6302AE7118E099BE00FEAA16 /* AppDelegates */ = {
+		6302AE7118E099BE00FEAA16 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				632075C018DA015E00C82FAF /* CalculatorAppDelegate.h */,
 				632075C118DA015E00C82FAF /* CalculatorAppDelegate.m */,
 			);
-			name = AppDelegates;
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 		632075A518DA015E00C82FAF = {
@@ -332,9 +375,10 @@
 		632075B718DA015E00C82FAF /* Calorie Controller */ = {
 			isa = PBXGroup;
 			children = (
+				63EB8BD41928B6DD00FD8DBC /* Tab Icons */,
 				630231A41905699F0071BD02 /* Core Data */,
 				DC3CE29B18E33945004B629B /* Models */,
-				6302AE7118E099BE00FEAA16 /* AppDelegates */,
+				6302AE7118E099BE00FEAA16 /* AppDelegate */,
 				6302AE7018E0998B00FEAA16 /* iPhone */,
 				6302AE6F18E0996400FEAA16 /* iPad */,
 				632075CF18DA015E00C82FAF /* Images.xcassets */,
@@ -372,6 +416,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		632A1BB0192552B600356593 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				632A1BB1192552D100356593 /* FoodMasterController.h */,
+				632A1BB2192552D100356593 /* FoodMasterController.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		632A1BBC19256FC100356593 /* PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				6374D3901929B28000F0DC1B /* Workout */,
+				6374D38A19297C6300F0DC1B /* Meal */,
+				6374D38919297C5A00F0DC1B /* Date */,
+			);
+			name = PopOver;
+			sourceTree = "<group>";
+		};
 		6331BFED1908435500149DFD /* Workout */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,9 +453,94 @@
 			name = Meal;
 			sourceTree = "<group>";
 		};
+		633277571927C8D100EE7A62 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				633277581927C8F400EE7A62 /* FoodDetailController.h */,
+				633277591927C8F400EE7A62 /* FoodDetailController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		6332775B1927CA1000EE7A62 /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				63EB8BD01928B2F800FD8DBC /* ExerciseMasterController.h */,
+				63EB8BD11928B2F800FD8DBC /* ExerciseMasterController.m */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		6332775C1927CA1700EE7A62 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				6332775E1927CA4200EE7A62 /* ExerciseDetailController.h */,
+				6332775F1927CA4200EE7A62 /* ExerciseDetailController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		633277611927CA4F00EE7A62 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				633277621927D9FA00EE7A62 /* SummaryDetailController.h */,
+				633277631927D9FA00EE7A62 /* SummaryDetailController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		6374D385192967D500F0DC1B /* Add / View Food */ = {
+			isa = PBXGroup;
+			children = (
+				6374D386192967F200F0DC1B /* AddViewFoodController.h */,
+				6374D387192967F200F0DC1B /* AddViewFoodController.m */,
+			);
+			name = "Add / View Food";
+			sourceTree = "<group>";
+		};
+		6374D38919297C5A00F0DC1B /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				632A1BBD19256FEA00356593 /* DatePopOverController.h */,
+				632A1BBE19256FEA00356593 /* DatePopOverController.m */,
+				632A1BBF19256FEA00356593 /* DatePopOverController.xib */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+		6374D38A19297C6300F0DC1B /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				6374D38B19297C9600F0DC1B /* MealPopOverController.h */,
+				6374D38C19297C9600F0DC1B /* MealPopOverController.m */,
+				6374D38D19297C9600F0DC1B /* MealPopOverController.xib */,
+			);
+			name = Meal;
+			sourceTree = "<group>";
+		};
+		6374D3901929B28000F0DC1B /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				6374D3911929B29C00F0DC1B /* WorkoutPopOverController.h */,
+				6374D3921929B29C00F0DC1B /* WorkoutPopOverController.m */,
+				6374D3931929B29C00F0DC1B /* WorkoutPopOverController.xib */,
+			);
+			name = Workout;
+			sourceTree = "<group>";
+		};
+		6374D3961929C56200F0DC1B /* Add / View Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				6374D3971929C57B00F0DC1B /* AddViewExerciseController.h */,
+				6374D3981929C57B00F0DC1B /* AddViewExerciseController.m */,
+			);
+			name = "Add / View Exercise";
+			sourceTree = "<group>";
+		};
 		63BC79181917C28800589D21 /* Custom Cells */ = {
 			isa = PBXGroup;
 			children = (
+				63BC79191917C2BB00589D21 /* Date Cell */,
 				63BC794E1919558A00589D21 /* Summary */,
 				74F36F1E1917FE920068A8F6 /* Food */,
 				74F36F201917FEC10068A8F6 /* Exercise */,
@@ -400,14 +548,14 @@
 			name = "Custom Cells";
 			sourceTree = "<group>";
 		};
-		63BC79191917C2BB00589D21 /* Food Date Cell */ = {
+		63BC79191917C2BB00589D21 /* Date Cell */ = {
 			isa = PBXGroup;
 			children = (
-				63BC791A1917C2F800589D21 /* FoodDateCell.xib */,
-				63BC79251917DC9300589D21 /* FoodDateCell.h */,
-				63BC79261917DC9300589D21 /* FoodDateCell.m */,
+				63BC791A1917C2F800589D21 /* DateCell.xib */,
+				63BC79251917DC9300589D21 /* DateCell.h */,
+				63BC79261917DC9300589D21 /* DateCell.m */,
 			);
-			name = "Food Date Cell";
+			name = "Date Cell";
 			sourceTree = "<group>";
 		};
 		63BC791F1917C47700589D21 /* Meal Cell */ = {
@@ -430,16 +578,6 @@
 			name = "Food Cell";
 			sourceTree = "<group>";
 		};
-		63BC792E19180CB600589D21 /* Exercise Date Cell */ = {
-			isa = PBXGroup;
-			children = (
-				63BC793119180E5800589D21 /* ExerciseDateCell.xib */,
-				63BC793319180EAE00589D21 /* ExerciseDateCell.h */,
-				63BC793419180EAE00589D21 /* ExerciseDateCell.m */,
-			);
-			name = "Exercise Date Cell";
-			sourceTree = "<group>";
-		};
 		63BC792F19180CBC00589D21 /* Workout Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -460,16 +598,6 @@
 			name = "Exercise Cell";
 			sourceTree = "<group>";
 		};
-		63BC79401919507600589D21 /* SummaryDateCell */ = {
-			isa = PBXGroup;
-			children = (
-				63BC79431919512D00589D21 /* SummaryDatCell.xib */,
-				63BC7945191951FF00589D21 /* SummaryDateCell.h */,
-				63BC7946191951FF00589D21 /* SummaryDateCell.m */,
-			);
-			name = SummaryDateCell;
-			sourceTree = "<group>";
-		};
 		63BC7948191952A600589D21 /* ActivitiesRemainingCaloriesCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,10 +611,27 @@
 		63BC794E1919558A00589D21 /* Summary */ = {
 			isa = PBXGroup;
 			children = (
-				63BC79401919507600589D21 /* SummaryDateCell */,
 				63BC7948191952A600589D21 /* ActivitiesRemainingCaloriesCell */,
 			);
 			name = Summary;
+			sourceTree = "<group>";
+		};
+		63EB8BD31928B4C400FD8DBC /* Master */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		63EB8BD41928B6DD00FD8DBC /* Tab Icons */ = {
+			isa = PBXGroup;
+			children = (
+				638FC9911928BAF600D67E6F /* personaldetail.png */,
+				63EB8BD91928B79500FD8DBC /* summary.png */,
+				63EB8BD51928B70300FD8DBC /* food.png */,
+				63EB8BD61928B70300FD8DBC /* exercise.png */,
+			);
+			name = "Tab Icons";
 			sourceTree = "<group>";
 		};
 		74F36EDF1917E09D0068A8F6 /* Personal Details */ = {
@@ -691,7 +836,6 @@
 		74F36F1E1917FE920068A8F6 /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				63BC79191917C2BB00589D21 /* Food Date Cell */,
 				63BC791F1917C47700589D21 /* Meal Cell */,
 				63BC79281917DDB300589D21 /* Food Cell */,
 			);
@@ -711,7 +855,6 @@
 		74F36F201917FEC10068A8F6 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				63BC792E19180CB600589D21 /* Exercise Date Cell */,
 				63BC792F19180CBC00589D21 /* Workout Cell */,
 				63BC793019180CC300589D21 /* Exercise Cell */,
 			);
@@ -865,23 +1008,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F36F221917FFF60068A8F6 /* iPhoneFoodDateCell.xib in Resources */,
-				63BC793219180E5800589D21 /* ExerciseDateCell.xib in Resources */,
+				63EB8BD71928B70300FD8DBC /* food.png in Resources */,
 				63BC79211917C6D600589D21 /* MealCell.xib in Resources */,
 				74F36F361918065C0068A8F6 /* iPhoneExerciseDateCell.xib in Resources */,
 				632075C818DA015E00C82FAF /* Main_iPad.storyboard in Resources */,
 				632075D018DA015E00C82FAF /* Images.xcassets in Resources */,
 				74F36F4019180ABD0068A8F6 /* iPhoneExerciseCell.xib in Resources */,
+				6374D3951929B29C00F0DC1B /* WorkoutPopOverController.xib in Resources */,
 				74F36F2C191802540068A8F6 /* iPhoneFoodCell.xib in Resources */,
 				63BC793719180F3000589D21 /* WorkoutCell.xib in Resources */,
 				63BC793C1918114500589D21 /* ExerciseCell.xib in Resources */,
 				632075C518DA015E00C82FAF /* Main_iPhone.storyboard in Resources */,
+				63EB8BD81928B70300FD8DBC /* exercise.png in Resources */,
+				63EB8BDA1928B79500FD8DBC /* summary.png in Resources */,
+				638FC9921928BAF600D67E6F /* personaldetail.png in Resources */,
 				63BC794A191952EC00589D21 /* ActivitiesRemainingCaloriesCell.xib in Resources */,
 				74F36F27191800720068A8F6 /* iPhoneMealCell.xib in Resources */,
 				74F36F3B191807D70068A8F6 /* iPhoneWorkoutCell.xib in Resources */,
 				632075BC18DA015E00C82FAF /* InfoPlist.strings in Resources */,
-				63BC79441919512D00589D21 /* SummaryDatCell.xib in Resources */,
+				6374D38F19297C9600F0DC1B /* MealPopOverController.xib in Resources */,
+				632A1BC119256FEA00356593 /* DatePopOverController.xib in Resources */,
 				63BC792A1917DE0800589D21 /* FoodCell.xib in Resources */,
-				63BC791B1917C2F800589D21 /* FoodDateCell.xib in Resources */,
+				63BC791B1917C2F800589D21 /* DateCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,16 +1049,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				74F36F191917FC430068A8F6 /* ExerciseDateListViewController.m in Sources */,
+				6374D3941929B29C00F0DC1B /* WorkoutPopOverController.m in Sources */,
 				74F36F161917FA360068A8F6 /* SummaryMainViewController.m in Sources */,
 				6302AE6518E095A300FEAA16 /* PersonalDetailsViewController.m in Sources */,
 				74F36F0A1917F95C0068A8F6 /* NewWorkoutViewController.m in Sources */,
 				74F36F3E19180A710068A8F6 /* iPhoneWorkoutCell.m in Sources */,
-				63BC79271917DC9300589D21 /* FoodDateCell.m in Sources */,
+				63BC79271917DC9300589D21 /* DateCell.m in Sources */,
 				74F36EFE1917F8C10068A8F6 /* FoodListViewController.m in Sources */,
 				DC3CE2AA18E34877004B629B /* Exercise.m in Sources */,
+				6374D3991929C57B00F0DC1B /* AddViewExerciseController.m in Sources */,
 				74F36EF51917F85C0068A8F6 /* FoodDateListViewController.m in Sources */,
 				74F36F251918002C0068A8F6 /* iPhoneFoodDateCell.m in Sources */,
+				6332775A1927C8F400EE7A62 /* FoodDetailController.m in Sources */,
 				74F36EFB1917F8A20068A8F6 /* NewMealViewController.m in Sources */,
+				633277601927CA4200EE7A62 /* ExerciseDetailController.m in Sources */,
+				6374D38E19297C9600F0DC1B /* MealPopOverController.m in Sources */,
+				633277641927D9FA00EE7A62 /* SummaryDetailController.m in Sources */,
 				630231A7190569C00071BD02 /* CalorieController.xcdatamodeld in Sources */,
 				632075C218DA015E00C82FAF /* CalculatorAppDelegate.m in Sources */,
 				DC3CE2A218E34287004B629B /* Meal.m in Sources */,
@@ -923,20 +1077,22 @@
 				6302AE6E18E0960F00FEAA16 /* SummarySplitViewController.m in Sources */,
 				63BC79241917DC7000589D21 /* MealCell.m in Sources */,
 				DC3CE29E18E34259004B629B /* Food.m in Sources */,
+				6374D388192967F200F0DC1B /* AddViewFoodController.m in Sources */,
 				74F36F2F191803430068A8F6 /* iPhoneFoodCell.m in Sources */,
 				74F36F4319180BC90068A8F6 /* iPhoneExerciseCell.m in Sources */,
+				632A1BB3192552D100356593 /* FoodMasterController.m in Sources */,
 				74F36F101917F9E30068A8F6 /* NewExerciseViewController.m in Sources */,
 				6331BFF11908443E00149DFD /* User.m in Sources */,
 				63BC793F1918122500589D21 /* ExerciseCell.m in Sources */,
 				74F36F131917FA090068A8F6 /* SummaryDateListViewController.m in Sources */,
 				74F36EE61917E20B0068A8F6 /* iPhonePersonalDetailsViewController.m in Sources */,
 				74F36F2A191801CE0068A8F6 /* iPhoneMealCell.m in Sources */,
+				632A1BC019256FEA00356593 /* DatePopOverController.m in Sources */,
 				63BC794D191953D800589D21 /* ActivitesRemainingCaloriesCell.m in Sources */,
 				632075BE18DA015E00C82FAF /* main.m in Sources */,
-				63BC7947191951FF00589D21 /* SummaryDateCell.m in Sources */,
 				74F36F071917F93F0068A8F6 /* WorkoutListViewController.m in Sources */,
 				6302AE6818E095D200FEAA16 /* FoodSplitViewController.m in Sources */,
-				63BC793519180EAE00589D21 /* ExerciseDateCell.m in Sources */,
+				63EB8BD21928B2F800FD8DBC /* ExerciseMasterController.m in Sources */,
 				6302AE6B18E095F400FEAA16 /* ExerciseSplitViewController.m in Sources */,
 				63BC793A1918108E00589D21 /* WorkoutCell.m in Sources */,
 			);

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FoodDetailController.h"
+#import "FoodMasterController.h"
 
-@interface FoodSplitViewController : UISplitViewController
+@interface FoodSplitViewController : UISplitViewController <FoodMasterControllerDelegate>
 
+@property (nonatomic,strong) UINavigationController *foodMasterNavigationController;
+@property (nonatomic,strong) FoodMasterController *foodMasterController; 
+@property (nonatomic,strong) FoodDetailController *foodDetailController;
 @end
